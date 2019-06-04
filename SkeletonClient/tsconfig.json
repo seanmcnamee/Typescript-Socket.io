@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es3",
+        "outFile": "./src/client.js",
+        "sourceRoot": "./",
+        "rootDir": "./",
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
