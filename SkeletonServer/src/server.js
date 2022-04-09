@@ -13,9 +13,9 @@ app.get("/", (req, res) => {
 });
 //User joins
 io.on("connection", function (socket) {
-    console.log("Someone here nigga - boo");
+    console.log("Someone here - boo");
     //Wait for the client to do shit
-    socket.on("boo nigga", function (message) {
+    socket.on("boo", function (message) {
         console.log("From client: " + message);
         socket.broadcast.emit("boop", message);
     });
